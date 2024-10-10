@@ -12,14 +12,21 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name= "Soup Sanctuary"
+        name="camera"
+        options={{
+          title: 'camera',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name= "soup"
         options={{
           title: 'Soup Sanctuary',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
         }}
       />
       <Tabs.Screen
-        name= "TiramisuLand"
+        name= "tiramisu"
         options={{
           title: 'TiramisuLand',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="cog" color={color} />,
